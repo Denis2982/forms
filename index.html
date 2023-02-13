@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson "Forms"</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="box">
+                <div class="box-text">
+                    <h2 class="box-title">Text Input</h2>
+                </div>
+                <div class="content-box">
+                    <form action="#" method="get">
+                        <label class="name">
+                            <span class="name-title">Name</span>
+                            <input type="text" class="name-input" placeholder="Enter your name">
+                        </label>
+                        <label class="name">
+                            <span class="name-title">Last name</span>
+                            <input type="text" class="name-input" placeholder="Enter your last name">
+                        </label>
+                        <label class="name">
+                            <span class="name-title">Phone</span>
+                            <input type="tel" class="name-input" placeholder="Enter your phone">
+                        </label>
+                        <label class="name">
+                            <span class="name-title">Email</span>
+                            <input type="email" class="name-input" placeholder="Enter your email">
+                        </label>
+                        <label class="name">
+                            <span class="name-title">Password</span>
+                            <input type="password" class="name-input" placeholder="Enter your password">
+                        </label>
+                        <label class="name">
+                            <span class="name-title">Product color</span>
+                            <input type="color" class="name-input">
+                        </label>
+                        <label class="name">
+                            <span class="name-title">Quantity</span>
+                            <input type="range" class="name-input name-range">
+                        </label>
+                        <label class="name">
+                            <span class="name-title">Delivery date</span>
+                            <input type="date" class="name-input" placeholder="Enter date">
+                        </label>
+                        <label class="name">
+                            <span class="name-title">Delivery time</span>
+                            <input type="time" class="name-input" placeholder="Enter time">
+                        </label> 
+                        <label class="name">
+                            <span class="name-title">Additional product requirements</span>
+                            <textarea class="name-textarea"></textarea>
+                        </label> 
+                        <button class="name-btn" type="submit">Send</button> 
+                        <button class="name-btn" type="reset">Reset</button>   
+                    </form>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-text">
+                    <h2 class="box-title">Select 1</h2>
+                </div>
+                <div class="content-box">
+                    <label class="name-select">
+                        <span class="name-title">Language</span>
+                        <select class="name-select">
+                            <option value="English">English</option>
+                            <option selected value="Ukrainian">Ukrainian</option>
+                            <option value="German">German</option>
+                            <option value="French">French</option>
+                        </select>
+                    </label>           
+                </div>
+                <div class="box-text">
+                    <h2 class="box-title">Select 2</h2>
+                </div>
+                <div class="content-box">
+                    <label class="name-select">
+                        <span class="name-title">Language</span>
+                        <div class="select-wrapper">
+                            <select class="name-select_2">
+                                <option value="English">English</option>
+                                <option selected value="Ukrainian">Ukrainian</option>
+                                <option value="German">German</option>
+                                <option value="French">French</option>
+                            </select>
+                        </div>
+                    </label>           
+                </div>
+                <div class="box-text">
+                    <h2 class="box-title">Checkbox 1</h2>
+                </div>
+                <div class="content-box">
+                    <label class="checkbox">
+                        <input type="checkbox" name="product_1" class="real">
+                        <span class="custom"></span>
+                        <span class="name-title">product 1</span>                        
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="product_2" class="real">
+                        <span class="custom"></span>
+                        <span class="name-title">product 2</span>                        
+                    </label> 
+                    <label class="checkbox">
+                        <input type="checkbox" name="product_3" class="real">
+                        <span class="custom"></span>
+                        <span class="name-title">product 3</span>                        
+                    </label>            
+                </div>
+                <div class="box-text">
+                    <h2 class="box-title">Checkbox 2</h2>
+                </div>
+                <div class="content-box">
+                    <label class="checkbox_2">
+                        <input type="checkbox" name="product_1" class="real_2">
+                        <span class="custom_2"></span>
+                        <span class="checkbox-text">product 1</span>                        
+                    </label>
+                    <label class="checkbox_2">
+                        <input type="checkbox" name="product_2" class="real_2">
+                        <span class="custom_2"></span>
+                        <span class="checkbox-text">product 2</span>                        
+                    </label> 
+                    <label class="checkbox_2">
+                        <input type="checkbox" name="product_3" class="real_2">
+                        <span class="custom_2"></span>
+                        <span class="checkbox-text">product 3</span>                        
+                    </label>            
+                </div>                
+            </div>
+            <div class="box">               
+                <div class="box-text">
+                    <h2 class="box-title">Radio Button 1</h2>
+                </div>
+                <div class="content-box">
+                    <label class="radio">
+                        <input type="radio" name="product_1" class="real-radio">
+                        <span class="custom-radio"></span>
+                        <span class="name-title">product 1</span>                        
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="product_1" class="real-radio">
+                        <span class="custom-radio"></span>
+                        <span class="name-title">product 2</span>                        
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="product_1" class="real-radio">
+                        <span class="custom-radio"></span>
+                        <span class="name-title">product 3</span>                        
+                    </label>          
+                </div>
+                <div class="box-text">
+                    <h2 class="box-title">Radio Button 2</h2>
+                </div>
+                <div class="content-box">
+                    <label class="radio">
+                        <input type="radio" name="product_2" class="real-radio_2">
+                        <span class="custom-radio_2"></span>
+                        <span class="name-title">product 1</span>                        
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="product_2" class="real-radio_2">
+                        <span class="custom-radio_2"></span>
+                        <span class="name-title">product 1</span>                        
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="product_2" class="real-radio_2">
+                        <span class="custom-radio_2"></span>
+                        <span class="name-title">product 1</span>                        
+                    </label>            
+                </div>
+                <div class="box-text">
+                    <h2 class="box-title">Switch 1</h2>
+                </div>
+                <div class="content-box">
+                    <div class="swich">
+                        <label class="name-swich_1">
+                            <input type="checkbox" class="real-swich_1">
+                            <span class="custom-swich_1"></span>                                                
+                        </label>
+                        <span class="name-title">Filter</span>  
+                    </div> 
+                    <div class="swich">
+                        <label class="name-swich_1">
+                            <input type="checkbox" class="real-swich_1">
+                            <span class="custom-swich_1 red"></span>                                                
+                        </label>
+                        <span class="name-title">Access</span>  
+                    </div>                 
+                </div>
+                <div class="box-text">
+                    <h2 class="box-title">Switch 2</h2>
+                </div>
+                <div class="content-box">                    
+                    <label class="name-swich_2">
+                        <input type="checkbox" class="real-swich_2">
+                        <span class="custom-swich_2"></span>
+                        <span class="name-title">Filter</span>                                                 
+                    </label>                
+                    <label class="name-swich_2">
+                        <input type="checkbox" class="real-swich_2">
+                        <span class="custom-swich_2"></span> 
+                        <span class="name-title">Access</span>                                               
+                    </label>                                                         
+                </div>
+            </div>           
+        </div>
+    </div>    
+</body>
+</html>
